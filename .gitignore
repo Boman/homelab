@@ -10,7 +10,7 @@ output
 *.tfstate
 *.tfstate.*
 
-*.tfvars
+#*.tfvars
 *.tfvars.json
 !*.auto.tfvars
 *.lock.hcl
