@@ -1,6 +1,6 @@
 proxmox = {
-  name         = "proxmox"
-  cluster_name = "proxmox"
+  name         = "pve"
+  cluster_name = "pve"
   endpoint     = "https://192.168.185.190:8006"
   insecure     = true
   username     = "ciuser@pve"
