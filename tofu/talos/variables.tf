@@ -67,7 +67,7 @@ variable "oidc" {
 variable "proxmox_datastore" {
   description = "Proxmox datastore to use for VM disks"
   type        = string
-  default     = "Nvme1"
+  default     = "local-lvm"
 }
 
 variable "nodes" {
